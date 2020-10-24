@@ -2,26 +2,29 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Alberto Gonzalez | Network Engineer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'My personal site', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Alberto Gonzalez',
+  subtitle: "I'm an experienced Network Engineer (and a hobbyist developer).",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'I am Network Engineer with experience managing and troubleshooting multi-vendor environments, providing technical support to data-center and campus networks and ensuring smooth operation of network infrastructure.',
+  paragraphTwo:
+    'I usually work installing, configuring and maintaining devices that include Palo Alto firewalls, F5 load balancers, Cisco Nexus switches, Cisco ASR routers, Cisco ASA firewalls, Meraki Access Points, Cisco Identity Service Engine, Cisco Application Centric Infrastructure, Juniper Pulse Secure SSLVPN and ExtraHop network visibility appliance.',
+  paragraphThree:
+    'I have great understanding of the incident, change and problem management processes.',
+  resume: 'https://www.linkedin.com/in/agonza05/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -59,7 +62,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'gonzalez.alberto@outlook.com',
 };
 
 // FOOTER DATA
@@ -67,28 +70,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/agonza05/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/agonza05',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
