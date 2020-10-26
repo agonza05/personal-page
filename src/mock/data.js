@@ -22,9 +22,8 @@ export const aboutData = {
     'I am Network Engineer with experience managing and troubleshooting multi-vendor environments, providing technical support to data-center and campus networks and ensuring smooth operation of network infrastructure.',
   paragraphTwo:
     'I usually work installing, configuring and maintaining devices that include Palo Alto firewalls, F5 load balancers, Cisco Nexus switches, Cisco ASR routers, Cisco ASA firewalls, Meraki Access Points, Cisco Identity Service Engine, Cisco Application Centric Infrastructure, Juniper Pulse Secure SSLVPN and ExtraHop network visibility appliance.',
-  paragraphThree:
-    'I have great understanding of the incident, change and problem management processes.',
-  resume: './Alberto_Gonzalez_CV.docx', // 'https://www.linkedin.com/in/agonza05/', // if no resume, the button will not show up
+  paragraphThree: 'Feel free to download my up-to-date cv.',
+  resume: 'Alberto_Gonzalez_CV.docx', // 'https://www.linkedin.com/in/agonza05/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -34,7 +33,7 @@ export const projectsData = [
     img: 'cisco_ansible.jpeg',
     title: 'Pipeline for Cisco ASA',
     info:
-      'Design and implementation of a piepline for configuration deployment of Cisco ASA firewalls using ansible. Features of the pipeline include: deployment of base configuration and snippets, creation of new IPSec tunnels using templates and addition or removal of NAT rules.',
+      'Design and implementation of an ansible pipeline for configuration deployment of Cisco ASA firewalls. Features include: deployment of configuration snippets or complete configuration backup, creation of new IPSec tunnels using templates and addition or removal of NAT rules.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
@@ -44,7 +43,7 @@ export const projectsData = [
     img: 'terraform_f5_2.jpg',
     title: 'Automation for F5 LTM',
     info:
-      'Declare, create and configure virtual services on F5 BIG-IP LTM using terraform. Creation of Infrastructure as Code files used by the provider to automate the deployment of new virtual services and reducing the number of manual configuration updates.',
+      'Creation and configuration of virtual services on F5 BIG-IP LTM using terraform. Declaration of Infrastructure as Code files used by the provider to automate the deployment of new virtual services and reducing the number of manual configuration updates.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
