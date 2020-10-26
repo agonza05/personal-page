@@ -47,7 +47,8 @@ const Footer = () => {
           Acknowledgments:{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Template
-          </a>{' '}
+          </a>
+          ,{' '}
           <a
             href="https://www.flaticon.com/authors/freepik"
             title="Freepik"
