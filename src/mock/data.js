@@ -30,6 +30,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'migrating_to_aci.jpg',
+    title: 'Migration legacy network to Cisco ACI',
+    info:
+      'Plan and implementation of a DC migration from legacy network technologies to Cisco ACI. Activities included review current configration, plan migration strategy, prepare configuration scripts, physically relocate devices and configure new fabric policies on ACI.',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'cisco_ansible.jpeg',
     title: 'Pipeline for Cisco ASA',
     info:
