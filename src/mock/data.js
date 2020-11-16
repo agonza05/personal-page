@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I usually work installing, configuring and maintaining devices that include Palo Alto firewalls, F5 load balancers, Cisco Nexus switches, Cisco ASR routers, Cisco ASA firewalls, Meraki Access Points, Cisco Identity Service Engine, Cisco Application Centric Infrastructure, Juniper Pulse Secure SSLVPN and ExtraHop network visibility appliance.',
   paragraphThree: 'Feel free to download my up-to-date cv.',
-  resume: 'Alberto_Gonzalez_CV.docx', // 'https://www.linkedin.com/in/agonza05/', // if no resume, the button will not show up
+  resume: 'https://cv.agonza.net', // 'https://www.linkedin.com/in/agonza05/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
