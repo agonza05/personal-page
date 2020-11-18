@@ -1,0 +1,115 @@
+#now {
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 80%, 0 100%);
+  padding: 10rem 0 12rem 0;
+  margin-top: -15rem;
+  color: $white-color;
+
+  @include respond(tab-land) {
+    padding: 5rem;
+    clip-path: none;
+    margin-top: 0;
+    -webkit-clip-path: none;
+  }
+
+  .now-wrapper {
+    @include respond(phone) {
+      padding-bottom: 0rem;
+      margin-bottom: 0rem;
+    }
+
+    &__info {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      flex-direction: column;
+
+      @include respond(phone) {
+        align-items: center;
+      }
+
+      &-text {
+        text-align: left;
+
+        @include respond(tab-port) {
+          font-size: 1.5rem;
+          text-align: center;
+        }
+        @include respond(phone) {
+          font-size: 1.6rem;
+          text-align: center;
+        }
+
+        &--important {
+          background: darken($secondary-color, 1%);
+          display: inline-block;
+          font-style: italic;
+          padding: 0 0.3rem;
+          margin: 0.3rem 0;
+          line-height: 1.6;
+
+          @include respond(phone) {
+            display: inline;
+            margin: 0;
+            padding: 0;
+            background: transparent;
+            font-style: normal;
+          }
+        }
+      }
+    }
+
+    &__title {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      flex-direction: column;
+      font-style: italic;
+      font-weight: bold;
+
+      @include respond(phone) {
+        align-items: center;
+      }
+
+      &-text {
+        text-align: right;
+
+        @include respond(tab-port) {
+          font-size: 1.5rem;
+          text-align: center;
+        }
+        @include respond(phone) {
+          font-size: 1.6rem;
+          text-align: center;
+        }
+
+        &--important {
+          background: darken($secondary-color, 1%);
+          display: inline-block;
+          font-style: italic;
+          padding: 0 0.3rem;
+          margin: 0.3rem 0;
+          line-height: 1.6;
+
+          @include respond(phone) {
+            display: inline;
+            margin: 0;
+            padding: 0;
+            background: transparent;
+            font-style: normal;
+          }
+        }
+      }
+    }
+
+    a {
+      color: $white-color;
+
+      &:hover,
+      &:active {
+        color: darken(white, 30%);
+      }
+    }
+  }
+}
