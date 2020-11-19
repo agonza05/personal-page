@@ -46,7 +46,7 @@ const Now = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="now-wrapper__info">
-                <p className="now-wrapper__info-text">IT stuff for Wirecard.</p>
+                <p className="now-wrapper__info-text">IT administrator for Wirecard.</p>
               </div>
             </Fade>
           </Col>
@@ -67,7 +67,7 @@ const Now = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="now-wrapper__title">
-                <p className="now-wrapper__title-text">Reading?</p>
+                <p className="now-wrapper__title-text">What am I reading?</p>
               </div>
             </Fade>
           </Col>
@@ -81,14 +81,14 @@ const Now = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="now-wrapper__title">
-                <p className="now-wrapper__title-text">Studying?</p>
+                <p className="now-wrapper__title-text">What am I learning?</p>
               </div>
             </Fade>
           </Col>
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="now-wrapper__info">
-                <p className="now-wrapper__info-text">Automation and web programming.</p>
+                <p className="now-wrapper__info-text">Network automation and web programming.</p>
               </div>
             </Fade>
           </Col>
