@@ -44,7 +44,7 @@ const Footer = () => {
           </a>
         </p>
         <p className="footer__text">
-          Acknowledgments:{' '}
+          Credits:{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Template
           </a>

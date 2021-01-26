@@ -2,9 +2,10 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Alberto Gonzalez | Network Engineer', // e.g: 'Name | Developer'
+  title: 'Alberto Gonzalez | Network Engineer | Munich, Germany', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Personal site', // e.g: Welcome to my website
+  description:
+    'Network Engineer with experience managing environments which include Palo Alto FWs, F5 LBs, Cisco Nexus, ASR, ASA, ACI, Meraki and Cisco ISE.', // e.g: Welcome to my website
 };
 
 // HERO DATA

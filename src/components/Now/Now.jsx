@@ -88,7 +88,7 @@ const Now = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="now-wrapper__info">
-                <p className="now-wrapper__info-text">Network automation and web programming.</p>
+                <p className="now-wrapper__info-text">Network automation with Ansible.</p>
               </div>
             </Fade>
           </Col>
@@ -103,9 +103,8 @@ const Now = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="now-wrapper__info">
                 <p className="now-wrapper__info-text">
-                  Better explained{' '}
                   <a target="_blank" rel="noopener noreferrer" href="https://nownownow.com/about">
-                    here.
+                    Better explained here.
                   </a>
                 </p>
               </div>
