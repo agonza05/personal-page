@@ -46,7 +46,7 @@ const Now = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="now-wrapper__info">
-                <p className="now-wrapper__info-text">IT administrator for Wirecard.</p>
+                <p className="now-wrapper__info-text">IT administrator for PagoNxt.</p>
               </div>
             </Fade>
           </Col>
@@ -60,7 +60,7 @@ const Now = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="now-wrapper__info">
-                <p className="now-wrapper__info-text">&quot;Parenting&quot; my 1-year old.</p>
+                <p className="now-wrapper__info-text">&quot;Parenting&quot; my 2-year old.</p>
               </div>
             </Fade>
           </Col>
